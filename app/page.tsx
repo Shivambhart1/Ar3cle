@@ -10,31 +10,12 @@ export default function Home() {
   };
   return (
     <>
-      <nav className="flex bg-white text-black justify-between p-5 border border-b-black-400">
+      <nav className="flex  bg-white text-black justify-between p-5 border border-b-black-400">
         <h1>Ar3cle</h1>
         <div className="right">
-<<<<<<< HEAD
-<<<<<<< HEAD
           <ul className="flex gap-2">
             <li>1</li>
             <li>69</li>
-=======
-          <ul className="flex gap-8">
-            {navElements.map((value, i) => (
-              <li
-                key={i}
-                className="font-medium cursor-pointer"
-                onClick={value === "Link" ? () => redirectToLinkPage() : ""}
-              >
-                {value.toUpperCase()}
-              </li>
-            ))}
->>>>>>> 0e9616316b26df02ff887a47b859f02cd84d913f
-=======
-          <ul className="flex gap-2">
-            <li>1</li>
-            <li>69</li>
->>>>>>> 551501c09a52c7a3717089130a87556c48416679
           </ul>
         </div>
         <div className="flex items-center gap-4">
