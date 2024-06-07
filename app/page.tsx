@@ -15,7 +15,7 @@ export default function Home() {
         <div className="right">
           <ul className="flex gap-2">
             <li>1</li>
-            <li>77</li>
+            <li>69</li>
           </ul>
         </div>
         <div className="flex items-center gap-4">
